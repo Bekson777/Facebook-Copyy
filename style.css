@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "roboto", italic;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+main {
+  background-color: #f1f3f5;
+}
+
+/* //////////////////////////////////// */
+/* MAIN */
+/* //////////////////////////////////// */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  max-width: 120rem;
+  height: 70rem;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 6.2rem;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  color: #4c6ef5;
+}
+
+.reference {
+  margin-top: 1rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
+.header {
+  margin: 0 0 15rem 7rem;
+  width: 46.4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin-bottom: 5rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 35rem;
+  width: 40rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1rem 3rem 0.5rem rgba(0, 0, 0, 0.096);
+}
+
+.input-text {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid rgba(190, 190, 190, 0.712);
+}
+
+.input-text::placeholder {
+  color: rgba(61, 61, 61, 0.712);
+}
+
+.input-text:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px rgb(99, 131, 238);
+}
+
+.login-btn {
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  padding: 1.3rem 2rem;
+  border-radius: 5px;
+  background-color: #4c6ef5;
+  transition: all 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #4263eb;
+}
+
+.restore {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(31, 86, 236);
+}
+
+.restore:hover {
+  text-decoration: underline;
+}
+
+.line {
+  height: 1px;
+  background-color: #999;
+}
+
+.create-account {
+  align-self: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 20rem;
+  height: 4.8rem;
+  padding: 1rem 0;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(43, 185, 30);
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s;
+}
+
+.create-account:hover {
+  background-color: rgb(25, 168, 11);
+}
+
+.logo-img {
+  width: 30rem;
+}
+
+.create-text {
+  text-align: center;
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.create-page {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.create-page:hover {
+  text-decoration: underline;
+}
+
+/* //////////////////////////////////// */
+/* FOOTER */
+/* //////////////////////////////////// */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language-list {
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  width: 98rem;
+}
+
+.languages {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+  gap: 1rem;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.more {
+  width: 3rem;
+  height: 2rem;
+}
+
+.more-language {
+  justify-self: center;
+  align-items: center;
+  cursor: pointer;
+  width: 25px;
+  height: 15px;
+}
+
+.date {
+  justify-self: center;
+}
+
+.line-footer {
+  /* width: 110rem; */
+  border-top: 1px solid #dddfe2;
+  margin-top: 1.2rem;
+  /* justify-content: center; */
+}
